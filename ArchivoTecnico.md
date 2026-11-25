@@ -21,7 +21,7 @@
 > **Entorno Productivo:** Puedes explorar la plataforma funcional directamente desde el siguiente enlace:
 > 🔗 **[Abrir Aplicación Web OficioYa](URL_DEL_FRONTEND_AQUI)**
 
-**OficioYa** conecta de forma directa y equitativa a trabajadores independientes con contratantes locales mediante reputación verificable, gestión de disponibilidad y búsqueda asistida por inteligencia artificial.
+**OficioYa** conecta de forma directa y equitativa a trabajadores independientes con contratantes locales mediante reputación verificable y gestión de disponibilidad.
 
 ---
 
@@ -33,7 +33,7 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 | :--- | :--- | :--- | :--- |
 | **Squad 1** | **API Gateway & Identity** | Punto único de entrada, validación de JWT, políticas de acceso, registro y 2FA/OTP. | PostgreSQL |
 | **Squad 2** | **User, Worker & Subscription** | Gestión de perfiles, oficios, tarifas, zonas de cobertura y suscripciones Pro. | PostgreSQL |
-| **Squad 3** | **Service Request & Search AI** | Ciclo de vida de solicitudes, agenda de disponibilidad y búsqueda en lenguaje natural. | PostgreSQL |
+| **Squad 3** | **Service Request** | Ciclo de vida de solicitudes y agenda de disponibilidad. | PostgreSQL |
 | **Squad 4** | **Reputation & Notification** | Sistema de calificaciones (1–5 estrellas), reseñas y alertas push en tiempo real. | PostgreSQL / MongoDB / Firebase FCM |
 | **Squad 5** | **Reporting & Moderation** | Analítica operativa, auditoría y moderación administrativa de disputas. | PostgreSQL / MongoDB |
 
@@ -85,17 +85,17 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 </details>
 
 <details>
-<summary><strong>Squad 3: Service Request & Search AI Service (Core)</strong></summary>
+<summary><strong>Squad 3: Service Request Service (Core)</strong></summary>
 <br>
 
 - **Diagrama de Componentes (C4 Nivel 3):**
-  ![Componentes Services & AI](docs/arquitectura/squad-3-services-ai/componentes-services-ai.png)
+  ![Componentes Services](docs/arquitectura/squad-3-services/componentes-services.png)
 
 - **Diagrama de Clases (Core):**
-  ![Clases Services & AI](docs/arquitectura/squad-3-services-ai/clases-services-ai.png)
+  ![Clases Services](docs/arquitectura/squad-3-services/clases-services.png)
 
 - **Diagrama Entidad-Relación (ER):**
-  ![ER Services & AI](docs/arquitectura/squad-3-services-ai/er-services-ai.png)
+  ![ER Services](docs/arquitectura/squad-3-services/er-services.png)
 </details>
 
 <details>
