@@ -94,16 +94,13 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 
 ## 4. Documentación de APIs (Swagger)
 
-> [!TIP]
-> El microservicio principal de **Service (Solicitudes y Búsqueda IA)** concentra el flujo core de negocio demostrado durante la sustentación.
-
 | Microservicio | Documentación Interactiva | Estado |
 | :--- | :--- | :---: |
-| **Service Request & Search AI (Principal)** | [Ver Swagger UI](URL_SWAGGER_SERVICE) | Activo |
-| **API Gateway / Identity Service** | [Ver Swagger UI](URL_SWAGGER_IDENTITY) | Activo |
-| **User & Worker Service** | [Ver Swagger UI](URL_SWAGGER_WORKER) | Activo |
-| **Reputation & Notification Service** | [Ver Swagger UI](URL_SWAGGER_REPUTATION) | Activo |
-| **Reporting & Moderation Service** | [Ver Swagger UI](URL_SWAGGER_REPORTING) | Activo |
+| **Service Request & Search AI (Principal)** | [Ver Swagger UI](URL_SWAGGER_SERVICE) |
+| **API Gateway / Identity Service** | [Ver Swagger UI](URL_SWAGGER_IDENTITY) |
+| **User & Worker Service** | [Ver Swagger UI](URL_SWAGGER_WORKER) |
+| **Reputation & Notification Service** | [Ver Swagger UI](URL_SWAGGER_REPUTATION) |
+| **Reporting & Moderation Service** | [Ver Swagger UI](URL_SWAGGER_REPORTING) |
 
 ---
 
