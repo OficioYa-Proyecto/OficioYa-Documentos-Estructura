@@ -94,8 +94,8 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 
 ## 4. Documentación de APIs (Swagger)
 
-| Microservicio | Documentación Interactiva | Estado |
-| :--- | :--- | :---: |
+| Microservicio | Documentación Interactiva |
+| :--- | :--- |
 | **Service Request & Search AI (Principal)** | [Ver Swagger UI](URL_SWAGGER_SERVICE) |
 | **API Gateway / Identity Service** | [Ver Swagger UI](URL_SWAGGER_IDENTITY) |
 | **User & Worker Service** | [Ver Swagger UI](URL_SWAGGER_WORKER) |
