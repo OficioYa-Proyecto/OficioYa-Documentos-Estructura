@@ -132,7 +132,7 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 
 | Microservicio | Documentación Interactiva | Respaldo Visual |
 | :--- | :--- | :--- |
-| **Service Request & Search AI (Principal)** | [Ver Swagger UI](URL_SWAGGER_SERVICE) | [Ver Captura](docs/swagger-respaldo/swagger-service-core.png) |
+| **Service Request** | [Ver Swagger UI](URL_SWAGGER_SERVICE) | [Ver Captura](docs/swagger-respaldo/swagger-service-core.png) |
 | **API Gateway / Identity Service** | [Ver Swagger UI](URL_SWAGGER_IDENTITY) | [Ver Captura](docs/swagger-respaldo/swagger-gateway-identity.png) |
 | **User & Worker Service** | [Ver Swagger UI](URL_SWAGGER_WORKER) | [Ver Captura](docs/swagger-respaldo/swagger-users-workers.png) |
 | **Reputation & Notification Service** | [Ver Swagger UI](URL_SWAGGER_REPUTATION) | [Ver Captura](docs/swagger-respaldo/swagger-reputation-notif.png) |
