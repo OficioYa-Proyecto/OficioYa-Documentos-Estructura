@@ -31,7 +31,7 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 
 | Squad | Microservicio(s) | Responsabilidad Principal | Base de Datos / Integración |
 | :--- | :--- | :--- | :--- |
-| **Squad 1** | **API Gateway & Identity** | Punto único de entrada, validación de JWT, políticas de acceso, registro y 2FA/OTP. | PostgreSQL (`Identity DB`) |
+| **Squad 1** | **API Gateway & Identity** | Punto único de entrada, validación de JWT, políticas de acceso, registro y 2FA/OTP. | PostgreSQL  |
 | **Squad 2** | **User, Worker & Subscription** | Gestión de perfiles, oficios, tarifas, zonas de cobertura y suscripciones Pro. | PostgreSQL  |
 | **Squad 3** | **Service Request & Search AI** | Ciclo de vida de solicitudes, agenda de disponibilidad y búsqueda en lenguaje natural. | PostgreSQL |
 | **Squad 4** | **Reputation & Notification** | Sistema de calificaciones (1–5 estrellas), reseñas y alertas push en tiempo real. | PostgreSQL / MongoDB / Firebase FCM |
