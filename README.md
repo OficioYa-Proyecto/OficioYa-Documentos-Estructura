@@ -32,8 +32,8 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 | Squad | Microservicio(s) | Responsabilidad Principal | Base de Datos / Integración |
 | :--- | :--- | :--- | :--- |
 | **Squad 1** | **API Gateway & Identity** | Punto único de entrada, validación de JWT, políticas de acceso, registro y 2FA/OTP. | PostgreSQL (`Identity DB`) |
-| **Squad 2** | **User, Worker & Subscription** | Gestión de perfiles, oficios, tarifas, zonas de cobertura y suscripciones Pro. | PostgreSQL / PSE |
-| **Squad 3** | **Service Request & Search AI** | Ciclo de vida de solicitudes, agenda de disponibilidad y búsqueda en lenguaje natural. | PostgreSQL / Google Gemini API |
+| **Squad 2** | **User, Worker & Subscription** | Gestión de perfiles, oficios, tarifas, zonas de cobertura y suscripciones Pro. | PostgreSQL  |
+| **Squad 3** | **Service Request & Search AI** | Ciclo de vida de solicitudes, agenda de disponibilidad y búsqueda en lenguaje natural. | PostgreSQL |
 | **Squad 4** | **Reputation & Notification** | Sistema de calificaciones (1–5 estrellas), reseñas y alertas push en tiempo real. | PostgreSQL / MongoDB / Firebase FCM |
 | **Squad 5** | **Reporting & Moderation** | Analítica operativa, auditoría y moderación administrativa de disputas. | PostgreSQL / MongoDB |
 
@@ -124,10 +124,3 @@ Seguimiento de sprints, ceremonias y trazabilidad de historias de usuario durant
 * **Tablero de Sprints y Métricas:** *(Captura de pantalla del Dashboard de Jira)*
 ```[cite: 3, 4, 5]
 
----
-
-**¿Por qué este diseño funciona bien frente a un jurado?**
-1. **Primer impacto en 5 segundos:** Al escanear el QR, lo primero que ve el jurado en la pantalla del teléfono es el encabezado limpio, el botón directo hacia la **aplicación desplegada** y el índice navegable.
-2. **Orden sin saturación visual:** La tabla de microservicios y la tabla de Swagger condensan mucha información técnica en bloques escaneables, mientras que los bloques `<details>` mantienen ocultos los más de 15 diagramas UML/C4 hasta que alguien quiera revisarlos en detalle.
-
-¿Quieres que vayamos preparando el diseño de carpetas del repositorio o prefieres ajustar alguna sección de esta plantilla primero?
