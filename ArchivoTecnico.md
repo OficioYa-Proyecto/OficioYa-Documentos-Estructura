@@ -181,6 +181,7 @@ Cada dominio funcional cuenta con despliegue independiente sobre **Microsoft Azu
 <br>
 
 - **Recurso activo en Azure:**
+  <!-- Sugerencia de recorte: Se puede recortar la barra lateral de navegación para destacar directamente los datos esenciales de ejecución (Node 22-lts, URL de Chile Central). -->
   ![Azure Frontend](docs/despliegues/azure-frontend.png)
 - **Pipeline de despliegue (CI/CD):**
   ![Pipeline Frontend](docs/despliegues/pipeline-frontend.png)
@@ -191,7 +192,11 @@ Cada dominio funcional cuenta con despliegue independiente sobre **Microsoft Azu
 <br>
 
 - **Recursos activos en Azure:**
-  ![Azure Squad 1](docs/despliegues/azure-squad1-orchestrator-identity.png)
+  <!-- Sugerencia de recorte: Para evitar elementos de navegación del navegador (barra izquierda y tooltip inferior), se puede recortar enfocando el panel central de 'Essentials' y propiedades del App Service. -->
+  - *Orchestrator (API Gateway):*
+    ![Azure Orchestrator](docs/despliegues/azure-squad1-orchestrator.png)
+  - *Identity Service:*
+    ![Azure Identity](docs/despliegues/azure-squad1-identity.png)
 - **Pipeline de despliegue (CI/CD):**
   ![Pipeline Squad 1](docs/despliegues/pipeline-squad1-orchestrator-identity.png)
 </details>
@@ -248,8 +253,14 @@ Cada dominio funcional cuenta con despliegue independiente sobre **Microsoft Azu
 Seguimiento de sprints, ceremonias y trazabilidad de historias de usuario durante el desarrollo:
 
 * **Cronograma y Roadmap (Timeline):**
+  <!-- Sugerencia de recorte / ajuste: La captura actual tiene abierto el desplegable de 'Persona asignada' sobre el diagrama de Gantt. Se sugiere tomar una nueva captura con el menú cerrado para ver despejadas las barras temporales. -->
   ![Cronograma y Roadmap Jira](docs/scrum-jira/jira-timeline-cronograma.png)
-* **Tablero de Sprint:**
+
+* **Tablero de Sprint (Sprint 6 activo):**
   ![Tablero de Sprint Jira](docs/scrum-jira/jira-tablero-sprint.png)
+
 * **Dashboard y Métricas:**
-  ![Dashboard de Métricas Jira](docs/scrum-jira/jira-dashboard-metricas.png)
+  - *Reporte Burnup (Trabajo completado vs Alcance del Sprint 5):*
+    ![Dashboard Burnup Jira](docs/scrum-jira/jira-dashboard-metricas.png)
+  - *Reporte Burndown (Trabajo restante del Sprint 5):*
+    ![Dashboard Burndown Jira](docs/scrum-jira/jira-burndown.png)
