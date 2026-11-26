@@ -123,7 +123,7 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
   ![Clases Reporting & Moderation](docs/arquitectura/squad-5-reporting-moderation/clases-reporting-mod.png)
 
 - **Diagrama Entidad-Relación (ER):**
-  ![ER Reporting & Moderation](docs/arquitectura/squad-5-reporting-moderation/er-reporting-mod.png)
+  *No aplica (el microservicio Reporting no persiste datos en una base de datos propia; opera como un servicio de reportería y analítica en tiempo real que consulta y agrega datos desde los dominios Worker y Users).*
 </details>
 
 ---
@@ -136,7 +136,7 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 | **API Gateway / Identity Service** | [Ver Swagger UI](URL_SWAGGER_IDENTITY) | [Ver Captura](docs/swagger-respaldo/swagger-gateway-identity.png) |
 | **User & Worker Service** | [Ver Swagger UI](URL_SWAGGER_WORKER) | [Ver Captura](docs/swagger-respaldo/swagger-users-workers.png) |
 | **Reputation & Notification Service** | [Ver Swagger UI](URL_SWAGGER_REPUTATION) | [Ver Captura](docs/swagger-respaldo/swagger-reputation-notif.png) |
-| **Reporting & Moderation Service** | [Ver Swagger UI](URL_SWAGGER_REPORTING) | [Ver Captura](docs/swagger-respaldo/swagger-reporting-mod.png) |
+| **Reporting & Moderation Service** | [Ver Swagger UI](https://oficioya-reporting-hvehegasb3hrarc9.mexicocentral-01.azurewebsites.net/swagger-ui/index.html) | [Ver Captura](docs/swagger-respaldo/swagger-reporting-mod.png) |
 
 ---
 
