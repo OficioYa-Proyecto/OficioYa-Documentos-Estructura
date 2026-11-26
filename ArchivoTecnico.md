@@ -135,22 +135,85 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 | **Service Request** | [Ver Swagger UI](URL_SWAGGER_SERVICE) | [Ver Captura](docs/swagger-respaldo/swagger-service-core.png) |
 | **API Gateway / Identity Service** | [Ver Swagger UI](URL_SWAGGER_IDENTITY) | [Ver Captura](docs/swagger-respaldo/swagger-gateway-identity.png) |
 | **User & Worker Service** | [Ver Swagger UI](URL_SWAGGER_WORKER) | [Ver Captura](docs/swagger-respaldo/swagger-users-workers.png) |
-| **Reputation & Notification Service** | [Ver Swagger UI](URL_SWAGGER_REPUTATION) | [Ver Captura](docs/swagger-respaldo/swagger-reputation-notif.png) |
+| **Reputation & Notification Service** | [Ver Swagger UI](https://oficioya-reputation-bggabfhkdvaqh4bw.mexicocentral-01.azurewebsites.net/swagger-ui/index.html) | [Ver Captura](docs/swagger-respaldo/swagger-reputation-notif.png) |
 | **Reporting & Moderation Service** | [Ver Swagger UI](https://oficioya-reporting-hvehegasb3hrarc9.mexicocentral-01.azurewebsites.net/swagger-ui/index.html) | [Ver Captura](docs/swagger-respaldo/swagger-reporting-mod.png) |
 
 ---
 
 ## 5. Infraestructura y Despliegues
 
-Evidencia de integración continua (CI/CD) y ejecución en la nube sobre **Microsoft Azure**:
+Cada dominio funcional cuenta con despliegue independiente sobre **Microsoft Azure** y flujos automatizados de integración y entrega continua (**CI/CD**) por repositorio:
 
-* **Pipelines de Despliegue (Backend & Frontend):**
-  - *Pipeline Backend:*
-    ![Pipeline Backend](docs/despliegues/pipeline-ci-cd-backend.png)
-  - *Pipeline Frontend:*
-    ![Pipeline Frontend](docs/despliegues/pipeline-ci-cd-frontend.png)
-* **Recursos Activos en Azure:**
-  ![Recursos Activos en Azure](docs/despliegues/azure-recursos-activos.png)
+| Dominio / Capa | Servicio Desplegado | Proveedor Cloud | Estado |
+| :--- | :--- | :---: | :---: |
+| **Frontend** | Web App (React + TypeScript) | Microsoft Azure | Activo |
+| **Squad 1** | API Gateway (Orchestrator) & Identity Service | Microsoft Azure | Activo |
+| **Squad 2** | User Service, Worker Service & Subscription | Microsoft Azure | Activo |
+| **Squad 3** | Service Request Service (Core) | Microsoft Azure | Activo |
+| **Squad 4** | Reputation & Notification Service | Microsoft Azure | Activo |
+| **Squad 5** | Reporting & Moderation Service | Microsoft Azure | Activo |
+
+*Haz clic en cada bloque para verificar la evidencia en Azure y su pipeline CI/CD:*
+
+<details>
+<summary><strong>Frontend — Web App (React + TypeScript)</strong></summary>
+<br>
+
+- **Recurso activo en Azure:**
+  ![Azure Frontend](docs/despliegues/azure-frontend.png)
+- **Pipeline de despliegue (CI/CD):**
+  ![Pipeline Frontend](docs/despliegues/pipeline-frontend.png)
+</details>
+
+<details>
+<summary><strong>Squad 1 — API Gateway (Orchestrator) & Identity Service</strong></summary>
+<br>
+
+- **Recursos activos en Azure:**
+  ![Azure Squad 1](docs/despliegues/azure-squad1-gateway-identity.png)
+- **Pipeline de despliegue (CI/CD):**
+  ![Pipeline Squad 1](docs/despliegues/pipeline-squad1-gateway-identity.png)
+</details>
+
+<details>
+<summary><strong>Squad 2 — User, Worker & Subscription Service</strong></summary>
+<br>
+
+- **Recursos activos en Azure:**
+  ![Azure Squad 2](docs/despliegues/azure-squad2-users-workers.png)
+- **Pipeline de despliegue (CI/CD):**
+  ![Pipeline Squad 2](docs/despliegues/pipeline-squad2-users-workers.png)
+</details>
+
+<details>
+<summary><strong>Squad 3 — Service Request Service (Core)</strong></summary>
+<br>
+
+- **Recurso activo en Azure:**
+  ![Azure Squad 3](docs/despliegues/azure-squad3-services.png)
+- **Pipeline de despliegue (CI/CD):**
+  ![Pipeline Squad 3](docs/despliegues/pipeline-squad3-services.png)
+</details>
+
+<details>
+<summary><strong>Squad 4 — Reputation & Notification Service</strong></summary>
+<br>
+
+- **Recursos activos en Azure:**
+  ![Azure Squad 4](docs/despliegues/azure-squad4-reputation-notif.png)
+- **Pipeline de despliegue (CI/CD):**
+  ![Pipeline Squad 4](docs/despliegues/pipeline-squad4-reputation-notif.png)
+</details>
+
+<details>
+<summary><strong>Squad 5 — Reporting & Moderation Service</strong></summary>
+<br>
+
+- **Recursos activos en Azure:**
+  ![Azure Squad 5](docs/despliegues/azure-squad5-reporting-mod.png)
+- **Pipeline de despliegue (CI/CD):**
+  ![Pipeline Squad 5](docs/despliegues/pipeline-squad5-reporting-mod.png)
+</details>
 
 ---
 
