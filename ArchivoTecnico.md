@@ -42,7 +42,7 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 ## 3. Arquitectura del Sistema (C4 y UML)
 
 ### Vista General (Nivel 1 y Nivel 2 - Modelo C4)
-* **Diagrama de Contexto:** Interacción entre Contratante, Trabajador Independiente, Administrador y servicios externos (Gemini API, Firebase FCM y PSE).
+* **Diagrama de Contexto:** Interacción entre Cliente (Contratante), Trabajador Independiente, Administrador y servicios externos de notificación (Firebase y Gmail).
 
   ![Diagrama de Contexto](docs/arquitectura/general/01-c4-contexto.png)
 
