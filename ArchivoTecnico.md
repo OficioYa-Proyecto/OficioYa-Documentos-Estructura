@@ -19,7 +19,7 @@
 
 > [!IMPORTANT]
 > **Entorno Productivo:** Puedes explorar la plataforma funcional directamente desde el siguiente enlace:
-> 🔗 **[Abrir Aplicación Web OficioYa](https://oficioya-front-app-egh6gjc3b0aearhq.chilecentral-01.azurewebsites.net)**
+> 🔗 <a href="https://oficioya-front-app-egh6gjc3b0aearhq.chilecentral-01.azurewebsites.net" target="_blank" rel="noopener noreferrer"><strong>Abrir Aplicación Web OficioYa</strong></a>
 
 **OficioYa** conecta de forma directa y equitativa a trabajadores independientes con contratantes locales mediante reputación verificable y gestión de disponibilidad.
 
