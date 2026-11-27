@@ -217,6 +217,7 @@ Cada dominio funcional cuenta con despliegue independiente sobre **Microsoft Azu
 <br>
 
 - **Recursos activos en Azure:**
+  <!-- Sugerencia de recorte: Para evitar la barra de navegación lateral y el tooltip inferior del navegador, se puede recortar enfocando el panel central de 'Essentials' y 'Propiedades' del App Service (oficioya-worker-api, West US, Java 21 SE). -->
   ![Azure Squad 3](docs/despliegues/azure-squad3-workers.png)
 - **Pipeline de despliegue (CI/CD):**
   ![Pipeline Squad 3](docs/despliegues/pipeline-squad3-workers.png)
@@ -237,7 +238,15 @@ Cada dominio funcional cuenta con despliegue independiente sobre **Microsoft Azu
 <br>
 
 - **Recursos activos en Azure:**
-  ![Azure Squad 5](docs/despliegues/azure-squad5-search-reputation-reporting.png)
+  - *Vista General de App Services (Squad 5 en ejecución):*
+    <!-- Sugerencia de recorte: Se puede recortar el espacio en blanco inferior de la tabla para enfocar directamente las 3 filas con los servicios en ejecución. -->
+    ![Azure Squad 5](docs/despliegues/azure-squad5-search-reputation-reporting.png)
+  - *Search Service:*
+    ![Azure Search](docs/despliegues/azure-squad5-search.png)
+  - *Reputation Service:*
+    ![Azure Reputation](docs/despliegues/azure-squad5-reputation.png)
+  - *Reporting Service:*
+    ![Azure Reporting](docs/despliegues/azure-squad5-reporting.png)
 - **Pipelines de despliegue (CI/CD):**
   - *Pipeline Search:*
     ![Pipeline Search](docs/despliegues/pipeline-squad5-search.png)
