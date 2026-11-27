@@ -76,8 +76,6 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 <summary><strong>Squad 2: User Service</strong></summary>
 <br>
 
-- **Diagrama de Componentes (C4 Nivel 3):**
-  ![Componentes Users](docs/arquitectura/squad-2-users/componentes-users.png)
 
 - **Diagrama de Clases:**
   ![Clases Users](docs/arquitectura/squad-2-users/clases-users.png)
@@ -90,8 +88,6 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 <summary><strong>Squad 3: Worker Service</strong></summary>
 <br>
 
-- **Diagrama de Componentes (C4 Nivel 3):**
-  ![Componentes Workers](docs/arquitectura/squad-3-workers/componentes-workers.png)
 
 - **Diagrama de Clases:**
   ![Clases Workers](docs/arquitectura/squad-3-workers/clases-workers.png)
@@ -104,8 +100,6 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 <summary><strong>Squad 4: Service Request & Notification Service</strong></summary>
 <br>
 
-- **Diagrama de Componentes - Service Request (C4 Nivel 3):**
-  ![Componentes Service Request](docs/arquitectura/squad-4-service-notification/componentes-service.png)
 
 - **Diagrama de Componentes - Notification Service (C4 Nivel 3):**
   ![Componentes Notification](docs/arquitectura/squad-4-service-notification/componentes-notification.png)
