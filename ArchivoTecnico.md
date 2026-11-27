@@ -68,7 +68,8 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
   ![Clases Identity](docs/arquitectura/squad-1-orchestrator-identity/DiagramaDeClases.png)
 
 - **Diagrama Entidad-Relación (ER):**
-  ![ER Identity](docs/arquitectura/squad-1-orchestrator-identity/er-identity.png)
+  ![ER Identity](docs/arquitectura/squad-1-orchestrator-identity/diagramaEntidadRelación.png
+)
 </details>
 
 <details>
