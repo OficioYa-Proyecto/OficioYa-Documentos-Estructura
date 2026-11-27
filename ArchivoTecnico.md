@@ -101,8 +101,6 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 <br>
 
 
-- **Diagrama de Componentes - Notification Service (C4 Nivel 3):**
-  ![Componentes Notification](docs/arquitectura/squad-4-service-notification/componentes-notification.png)
 
 - **Diagrama de Clases:**
   ![Clases Service & Notification](docs/arquitectura/squad-4-service-notification/clases-service-notif.png)
