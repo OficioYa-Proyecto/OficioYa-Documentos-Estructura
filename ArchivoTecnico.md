@@ -49,7 +49,7 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 
 * **Diagrama de Contenedores:** Topología completa de la SPA, API Gateway, microservicios de los 5 squads y motores de persistencia.
 
-  ![Diagrama de Contenedores](docs/arquitectura/general/02-c4-contenedores.png)
+  ![Diagrama de Contenedores](docs/arquitectura/general/diagramaDeContenedores.png)
 
 ### Vista Detallada por Microservicio (Componentes, Clases y Entidad-Relación)
 *Haz clic en cada dominio para desplegar sus diagramas internos:*
@@ -59,24 +59,23 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 <br>
 
 - **Diagrama de Componentes - Orchestrator (C4 Nivel 3):**
-  ![Componentes Orchestrator](docs/arquitectura/squad-1-orchestrator-identity/componentes-orchestrator.png)
+  ![Componentes Orchestrator](docs/arquitectura/squad-1-orchestrator-identity/componetes-orchestor.drawio.png)
 
 - **Diagrama de Componentes - Identity Service (C4 Nivel 3):**
-  ![Componentes Identity](docs/arquitectura/squad-1-orchestrator-identity/componentes-identity.png)
+  ![Componentes Identity](docs/arquitectura/squad-1-orchestrator-identity/diagramaComponetesEntity.png)
 
 - **Diagrama de Clases:**
-  ![Clases Identity](docs/arquitectura/squad-1-orchestrator-identity/clases-identity.png)
+  ![Clases Identity](docs/arquitectura/squad-1-orchestrator-identity/DiagramaDeClases.png)
 
 - **Diagrama Entidad-Relación (ER):**
-  ![ER Identity](docs/arquitectura/squad-1-orchestrator-identity/er-identity.png)
+  ![ER Identity](docs/arquitectura/squad-1-orchestrator-identity/diagramaEntidadRelación.png
+)
 </details>
 
 <details>
 <summary><strong>Squad 2: User Service</strong></summary>
 <br>
 
-- **Diagrama de Componentes (C4 Nivel 3):**
-  ![Componentes Users](docs/arquitectura/squad-2-users/componentes-users.png)
 
 - **Diagrama de Clases:**
   ![Clases Users](docs/arquitectura/squad-2-users/clases-users.png)
@@ -89,8 +88,6 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 <summary><strong>Squad 3: Worker Service</strong></summary>
 <br>
 
-- **Diagrama de Componentes (C4 Nivel 3):**
-  ![Componentes Workers](docs/arquitectura/squad-3-workers/componentes-workers.png)
 
 - **Diagrama de Clases:**
   ![Clases Workers](docs/arquitectura/squad-3-workers/clases-workers.png)
@@ -103,11 +100,7 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 <summary><strong>Squad 4: Service Request & Notification Service</strong></summary>
 <br>
 
-- **Diagrama de Componentes - Service Request (C4 Nivel 3):**
-  ![Componentes Service Request](docs/arquitectura/squad-4-service-notification/componentes-service.png)
 
-- **Diagrama de Componentes - Notification Service (C4 Nivel 3):**
-  ![Componentes Notification](docs/arquitectura/squad-4-service-notification/componentes-notification.png)
 
 - **Diagrama de Clases:**
   ![Clases Service & Notification](docs/arquitectura/squad-4-service-notification/clases-service-notif.png)
