@@ -47,7 +47,7 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 
   ![Diagrama de Contexto](docs/arquitectura/general/01-c4-contexto.png)
 
-* **Diagrama de Contenedores:** Topología completa de la SPA, API Gateway, microservicios de los 5 squads y motores de persistencia.
+* **Diagrama de Componentes:** Topología completa de la SPA, API Gateway, microservicios de los 5 squads y motores de persistencia.
 
   ![Diagrama de Contenedores](docs/arquitectura/general/diagramaDeContenedores.png)
 
