@@ -151,7 +151,7 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 
 | Microservicio | Squad | Documentación Interactiva | Respaldo Visual |
 | :--- | :---: | :--- | :--- |
-| **Orchestrator & Identity** | Squad 1 | [Ver Swagger UI](URL_SWAGGER_SQUAD1) | [Ver Captura](docs/swagger-respaldo/swagger-orchestrator-identity.png) |
+| **Orchestrator & Identity** | Squad 1 | [Ver Swagger UI](https://oficioya-orchestor-api-ghaxfaacfabxh4bv.chilecentral-01.azurewebsites.net/swagger-ui/index.html) | [Ver Captura](docs/swagger-respaldo/swagger-orchestrator-identity.png) |
 | **Users** | Squad 2 | [Ver Swagger UI](https://oficioya-users-api-cmaxb7fphegvdwb3.chilecentral-01.azurewebsites.net/swagger-ui/index.html) | [Ver Captura](docs/swagger-respaldo/swagger-users.png) |
 | **Workers** | Squad 3 | [Ver Swagger UI](https://oficioya-worker-api.azurewebsites.net/swagger-ui/index.html) | [Ver Captura](docs/swagger-respaldo/swagger-workers.png) |
 | **Service Request** | Squad 4 | [Ver Swagger UI](URL_SWAGGER_SERVICE) | [Ver Captura](docs/swagger-respaldo/swagger-service.png) |
