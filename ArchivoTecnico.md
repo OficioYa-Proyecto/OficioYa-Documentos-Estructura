@@ -59,7 +59,7 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 <br>
 
 - **Diagrama de Componentes - Orchestrator (C4 Nivel 3):**
-  ![Componentes Orchestrator](docs/arquitectura/squad-1-orchestrator-identity/componentes-orchestrator.png)
+  ![Componentes Orchestrator](docs/arquitectura/squad-1-orchestrator-identity/componetes-orchestor.drawio.png)
 
 - **Diagrama de Componentes - Identity Service (C4 Nivel 3):**
   ![Componentes Identity](docs/arquitectura/squad-1-orchestrator-identity/componentes-identity.png)
