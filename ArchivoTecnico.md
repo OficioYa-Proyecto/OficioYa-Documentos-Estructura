@@ -154,8 +154,8 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 | **Orchestrator & Identity** | Squad 1 | [Ver Swagger UI](https://oficioya-orchestor-api-ghaxfaacfabxh4bv.chilecentral-01.azurewebsites.net/swagger-ui/index.html) | [Ver Captura](docs/swagger-respaldo/swagger-orchestrator-identity.png) |
 | **Users** | Squad 2 | [Ver Swagger UI](https://oficioya-users-api-cmaxb7fphegvdwb3.chilecentral-01.azurewebsites.net/swagger-ui/index.html) | [Ver Captura](docs/swagger-respaldo/swagger-users.png) |
 | **Workers** | Squad 3 | [Ver Swagger UI](https://oficioya-worker-api.azurewebsites.net/swagger-ui/index.html) | [Ver Captura](docs/swagger-respaldo/swagger-workers.png) |
-| **Service Request** | Squad 4 | [Ver Swagger UI](URL_SWAGGER_SERVICE) | [Ver Captura](docs/swagger-respaldo/swagger-service.png) |
-| **Notification** | Squad 4 | [Ver Swagger UI](URL_SWAGGER_NOTIFICATION) | [Ver Captura](docs/swagger-respaldo/swagger-notification.png) |
+| **Service Request** | Squad 4 | [Ver Swagger UI](https://ofioya-serviceapi-achydycpa3fgbsch.chilecentral-01.azurewebsites.net/swagger-ui/index.html#/) | [Ver Captura](docs/swagger-respaldo/swagger-service.png) |
+| **Notification** | Squad 4 | [Ver Swagger UI](https://oficioya-notificationapi-apffc2eygzgcbghp.brazilsouth-01.azurewebsites.net/swagger-ui/index.html#/) | [Ver Captura](docs/swagger-respaldo/swagger-notification.png) |
 | **Search** | Squad 5 | [Ver Swagger UI](https://oficioya-search-atgjh5gdfcb5b8h3.mexicocentral-01.azurewebsites.net/swagger-ui/index.html) | [Ver Captura](docs/swagger-respaldo/swagger-search.png) |
 | **Reputation** | Squad 5 | [Ver Swagger UI](https://oficioya-reputation-bggabfhkdvaqh4bw.mexicocentral-01.azurewebsites.net/swagger-ui/index.html) | [Ver Captura](docs/swagger-respaldo/swagger-reputation.png) |
 | **Reporting** | Squad 5 | [Ver Swagger UI](https://oficioya-reporting-hvehegasb3hrarc9.mexicocentral-01.azurewebsites.net/swagger-ui/index.html) | [Ver Captura](docs/swagger-respaldo/swagger-reporting.png) |
