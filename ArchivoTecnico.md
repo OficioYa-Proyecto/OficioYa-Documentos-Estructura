@@ -152,7 +152,7 @@ La solución sigue una arquitectura distribuida organizada en **5 dominios funci
 | Microservicio | Squad | Documentación Interactiva | Respaldo Visual |
 | :--- | :---: | :--- | :--- |
 | **Orchestrator & Identity** | Squad 1 | [Ver Swagger UI](URL_SWAGGER_SQUAD1) | [Ver Captura](docs/swagger-respaldo/swagger-orchestrator-identity.png) |
-| **Users** | Squad 2 | [Ver Swagger UI](URL_SWAGGER_USERS) | [Ver Captura](docs/swagger-respaldo/swagger-users.png) |
+| **Users** | Squad 2 | [Ver Swagger UI](https://oficioya-users-api-cmaxb7fphegvdwb3.chilecentral-01.azurewebsites.net/swagger-ui/index.html) | [Ver Captura](docs/swagger-respaldo/swagger-users.png) |
 | **Workers** | Squad 3 | [Ver Swagger UI](https://oficioya-worker-api.azurewebsites.net/swagger-ui/index.html) | [Ver Captura](docs/swagger-respaldo/swagger-workers.png) |
 | **Service Request** | Squad 4 | [Ver Swagger UI](URL_SWAGGER_SERVICE) | [Ver Captura](docs/swagger-respaldo/swagger-service.png) |
 | **Notification** | Squad 4 | [Ver Swagger UI](URL_SWAGGER_NOTIFICATION) | [Ver Captura](docs/swagger-respaldo/swagger-notification.png) |
@@ -198,8 +198,11 @@ Cada dominio funcional cuenta con despliegue independiente sobre **Microsoft Azu
     ![Azure Orchestrator](docs/despliegues/azure-squad1-orchestrator.png)
   - *Identity Service:*
     ![Azure Identity](docs/despliegues/azure-squad1-identity.png)
-- **Pipeline de despliegue (CI/CD):**
-  ![Pipeline Squad 1](docs/despliegues/pipeline-squad1-orchestrator-identity.png)
+- **Pipelines de despliegue (CI/CD):**
+  - *Orchestrator (API Gateway):*
+    ![Pipeline Orchestrator](docs/despliegues/pipeline-squad1-orchestrator.png)
+  - *Identity Service:*
+    ![Pipeline Identity](docs/despliegues/pipeline-squad1-identity.png)
 </details>
 
 <details>
@@ -229,8 +232,11 @@ Cada dominio funcional cuenta con despliegue independiente sobre **Microsoft Azu
 
 - **Recursos activos en Azure:**
   ![Azure Squad 4](docs/despliegues/azure-squad4-service-notif.png)
-- **Pipeline de despliegue (CI/CD):**
-  ![Pipeline Squad 4](docs/despliegues/pipeline-squad4-service-notif.png)
+- **Pipelines de despliegue (CI/CD):**
+  - *Service Request:*
+    ![Pipeline Service](docs/despliegues/pipeline-squad4-service.png)
+  - *Notification Service:*
+    ![Pipeline Notification](docs/despliegues/pipeline-squad4-notification.png)
 </details>
 
 <details>
